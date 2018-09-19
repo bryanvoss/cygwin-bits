@@ -1,0 +1,2 @@
+copy C:\cygwin64\packages\setup-x86_64.exe C:\cygwin64\packages\setup-x86_64_old.exe
+c:\cygwin64\bin\bash.exe -l -c "cd /cygdrive/c/cygwin64/packages; curl https://cygwin.com/setup-x86_64.exe > setup-x86_64.exe; ./setup-x86_64.exe;
